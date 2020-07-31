@@ -3,9 +3,9 @@ html{
     scroll-behavior: smooth;
   }
 
-header{
-   
-    margin-left: auto;
+/* ----------------Header---------------------- */
+  header{
+      margin-left: auto;
       margin-right: auto;
       width: 90%;
   }
@@ -14,10 +14,16 @@ header{
       font-size: 60px;
   }
 
+  nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
   nav a{
       text-decoration: none;
       color:black;
-      margin: 10px;
+      margin: 5px;
       font-family: avenir-lt-w01_35-light1475496, sans-serif;
   }
 
@@ -25,8 +31,6 @@ header{
       opacity:0.5;
       color: gray;
   }
-
-
 
   /* ---------------Home----------------- */
 
@@ -41,7 +45,6 @@ header{
   }
   
   .home h3{
-    /* color: rgb(255, 137, 50); */
     color: white;
     font-size: 50px;
   }
@@ -60,10 +63,19 @@ header{
     color: white;
     text-decoration: none;
     padding: 10px;
-    background-color: rgb(255, 137, 50);
     margin-left: auto;
     margin-right: auto;
+    box-shadow:0 0 15px 5px white;
+    border-radius: 20%;
+    font-size: 20px;
   }
+
+  .centered a:hover{
+    opacity: 1.5;
+    color: white;
+    font-size: 30px;
+    
+}
   
   .home img{
     margin-left: auto;
@@ -71,7 +83,6 @@ header{
     width: 100%;
     height: 500px;
     opacity: 8;
-    color: black;
   } 
 
   /* ---------------About_Me---------------- */
@@ -82,7 +93,6 @@ header{
     width: 90%;
     height: 560px;
     margin-top: 50px;
-    /* box-shadow:0 0 20px 0px white; */
     border:rgb(255, 137, 50) solid ;
 }
 
@@ -114,6 +124,7 @@ header{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 20px;
 }
 .main img{
     height: 560px;
@@ -142,15 +153,11 @@ header{
   }
 
   .education h2{
-    font-family: ;
-    font-weight: ;
     color: rgb(255, 137, 50);
     text-align: center;
   }
   
   .education h3{
-    font-family: ;
-    font-weight: ;
     text-align: center;
     color: black;
   }
@@ -175,7 +182,6 @@ header{
   .skillsbox {
       display: flex;
       width: 100%;
-      /* padding: 4% 2%; */
       box-sizing: border-box;
       height: 60vh;
       margin-left: auto;
@@ -188,8 +194,6 @@ header{
       overflow: hidden;
       transition: .5s;
       margin: 5px;
-      /* box-shadow: 0 20px 30px rgba(224, 137, 37, 0.1); */
-      /* box-shadow: 0 20px 30px #ff8933; */
       border: rgb(255, 137, 50) solid;
       line-height: 0;
       background-color: whitesmoke;
@@ -219,7 +223,7 @@ header{
 
 
 /* ----------------------INTERNSHIPS------------------------- */
-.internship{
+.internships{
     margin-left: auto;
     margin-right: auto;
     width: 90%;
@@ -227,30 +231,32 @@ header{
     padding-top: 30px;
   }
   
-  .internship h1{
+  .internships h1{
     color: rgb(255, 137, 50);
     text-align: center;
     font-size: 50px;
   }
   
-  .internship img{
+  .internships img{
     text-align: center;
     height: 250px;
     width: 250px;
     border-radius: 30%;
-    box-shadow:0 0 15px 0pxrgb(255, 137, 50);
+    box-shadow:0 0 15px 0px rgb(255, 137, 50);
   }
   
-  .internship h2{
+  .internships h2{
     color: rgb(255, 137, 50);
     font-size: 35px;
   }
   
-  .internship h3{
+  .internships h3{
     font-size: 25px;
   }
 
-
+  .internships img:hover{
+    opacity: 0.5;
+}
 
 /* -------------------Courses-------------------- */
 
@@ -258,8 +264,6 @@ header{
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    /* height: 500px; */
-    /* background-color: #ff8933; */
     padding-top: 30px;
   }
   
@@ -360,7 +364,6 @@ header{
       grid-column-gap: 50px;
       grid-row-gap:50px;
       grid-template-columns: auto auto;
-      /* background-color: #2196F3; */
       padding: 10px;
     }
     
@@ -385,7 +388,7 @@ header{
       font-size: 30px;
       text-align: center;
       height: 300px;
-      background-color:rgb(255, 137, 50);
+      background-color: rgb(255, 137, 50);
     }
   
     .item-4{
@@ -416,7 +419,6 @@ header{
       color: white;
       font-size: 20px;
     }
-
 
 /* -------------------------Languages-------------------- */
 
@@ -473,7 +475,7 @@ header{
 
 
 
-  /* -------------------Socail----------- */
+  /* -------------------footer----------- */
   .soc{
       padding-top: 60px;
       text-align: center;
@@ -485,7 +487,6 @@ header{
   }
   .soc img{
       color: rgb(255, 137, 50);
-      /* border: #ff8933 solid; */
   }
   
   .soc a:hover{
