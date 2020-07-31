@@ -1,0 +1,493 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+header{
+   
+    margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+  }
+  header h1{
+      color: black;
+      font-size: 60px;
+  }
+
+  nav a{
+      text-decoration: none;
+      color:black;
+      margin: 10px;
+      font-family: avenir-lt-w01_35-light1475496, sans-serif;
+  }
+
+  nav a:hover{
+      opacity:0.5;
+      color: gray;
+  }
+
+
+
+  /* ---------------Home----------------- */
+
+.home {
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 500px;
+    margin-top: 30px;
+  }
+  
+  .home h3{
+    /* color: rgb(255, 137, 50); */
+    color: white;
+    font-size: 50px;
+  }
+  
+  .centered {
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .centered a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(255, 137, 50);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .home img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 500px;
+    opacity: 8;
+    color: black;
+  } 
+
+  /* ---------------About_Me---------------- */
+
+.aboutme{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 560px;
+    margin-top: 50px;
+    /* box-shadow:0 0 20px 0px white; */
+    border:rgb(255, 137, 50) solid ;
+}
+
+.side{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    background-color:rgb(255, 137, 50);
+    height: 560px;
+  }
+
+.main {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+  }
+
+.aboutme h1{
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 50px;
+    
+}
+
+.aboutme p{
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main img{
+    height: 560px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+
+
+
+/* ------------------Education------------------------- */
+.education{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 30px;
+  }
+  
+  .education h1{
+    color: rgb(255, 137, 50);
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .education h2{
+    font-family: ;
+    font-weight: ;
+    color: rgb(255, 137, 50);
+    text-align: center;
+  }
+  
+  .education h3{
+    font-family: ;
+    font-weight: ;
+    text-align: center;
+    color: black;
+  }
+
+
+/* ----------------------Skills-----------------------------*/
+
+.skills{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  
+  .skills h1{
+    text-align: center;
+    color: rgb(255, 137, 50);
+    font-size: 50px;
+  }
+  
+  
+  .skillsbox {
+      display: flex;
+      width: 100%;
+      /* padding: 4% 2%; */
+      box-sizing: border-box;
+      height: 60vh;
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%;
+    }
+    
+    .box {
+      flex: 1;
+      overflow: hidden;
+      transition: .5s;
+      margin: 5px;
+      /* box-shadow: 0 20px 30px rgba(224, 137, 37, 0.1); */
+      /* box-shadow: 0 20px 30px #ff8933; */
+      border: rgb(255, 137, 50) solid;
+      line-height: 0;
+      background-color: whitesmoke;
+    }
+    
+    .box > img {
+      width: 200%;
+      height: calc(100% - 10vh);
+      object-fit: cover; 
+      transition: .5s;
+    }
+    
+    .box > span {
+      font-size: 2vh;
+      display: block;
+      text-align: center;
+      height: 10vh;
+      line-height: 1;
+      padding-top: 30px;
+    }
+    
+    .box:hover { flex: 1 1 50%; }
+    .box:hover > img {
+      width: 100%;
+      height: 100%;
+    }
+
+
+/* ----------------------INTERNSHIPS------------------------- */
+.internship{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  .internship h1{
+    color: rgb(255, 137, 50);
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .internship img{
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+    box-shadow:0 0 15px 0pxrgb(255, 137, 50);
+  }
+  
+  .internship h2{
+    color: rgb(255, 137, 50);
+    font-size: 35px;
+  }
+  
+  .internship h3{
+    font-size: 25px;
+  }
+
+
+
+/* -------------------Courses-------------------- */
+
+.courses{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    /* height: 500px; */
+    /* background-color: #ff8933; */
+    padding-top: 30px;
+  }
+  
+  .courses h1{
+      text-align: center;
+      color: rgb(255, 137, 50);
+      font-size: 50px;
+  }
+  
+  .grid1{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap:50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  
+  .item1{
+    font-size: 30px;
+    text-align: center;
+    height: 500px;
+    background-color:whitesmoke;
+    border: rgb(255, 137, 50) solid;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .item1 :hover{
+    opacity: 0.5;
+}
+  
+  .item1 img{
+    height: 250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .item1 h3{
+    color: rgb(255, 137, 50);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .item1 span{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* --------------------------Activities--------------------- */
+.activities{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  
+  .activities h4{
+    color: rgb(255, 137, 50);
+    text-align: left;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -50px;
+  }
+  
+  .activities h1{
+    color: rgb(255, 137, 50);
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .activities h3{
+    text-align: center;
+    font-size: 25px;
+  }
+
+
+/* -----------------------Projects--------------------- */
+
+.projects{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 90px;
+  }
+
+.projects h1{
+    text-align: center;
+    color: rgb(255, 137, 50);
+    font-size: 50px;
+  }
+  
+    .grid {
+      display: grid;
+      grid-column-gap: 50px;
+      grid-row-gap:50px;
+      grid-template-columns: auto auto;
+      /* background-color: #2196F3; */
+      padding: 10px;
+    }
+    
+    .item-1{
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+      height: 300px;
+      background-color:#0e2058;
+    }
+  
+    .item-2{
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+      height: 300px;
+      background-color:#3356cc;
+    }
+  
+    .item-3{
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+      height: 300px;
+      background-color:rgb(255, 137, 50);
+    }
+  
+    .item-4{
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+      height: 300px;
+      background-color:#0e2058;
+    }
+  
+    .grid a{
+      color: white;
+    } 
+    .grid h1{
+      text-align: left;
+      color: white;
+      font-size: 20px;
+    }
+  
+    .grid h2{
+      text-align: left;
+      color: white;
+      font-size: 30px;
+    }
+  
+    .grid p{
+      text-align: left;
+      color: white;
+      font-size: 20px;
+    }
+
+
+/* -------------------------Languages-------------------- */
+
+
+.language{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  
+  .language h1{
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 137, 50);
+    padding-top:40px;
+    padding-bottom: 30px;
+  }
+  
+  .language img{
+    border-radius: 30%;
+  }
+  
+  
+  .language li{
+  border:solid 1px rgb(255, 137, 50);
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  transition:all 1s ease;
+  box-shadow:0 0 15px 0px rgb(255, 137, 50);
+  background:rgb(255, 137, 50);
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position: relative;
+  border-radius: 30%;
+  }
+  
+  .language li:hover{
+  top:0px;
+  opacity:0.5;
+  }
+  
+  .language p{
+  margin:-1px 0 0 0;
+  color: whitesmoke;
+  }
+
+
+
+
+  /* -------------------Socail----------- */
+  .soc{
+      padding-top: 60px;
+      text-align: center;
+  }
+  
+  .soc a{
+      color:rgb(255, 137, 50);
+      text-decoration: none;
+  }
+  .soc img{
+      color: rgb(255, 137, 50);
+      /* border: #ff8933 solid; */
+  }
+  
+  .soc a:hover{
+      opacity: 0.5;
+  }
